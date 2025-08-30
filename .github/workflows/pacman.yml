@@ -12,17 +12,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
       - name: Generate Pacman SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: joaodevtech   # <-- coloque seu usuário aqui
+          github_user_name: joaodevtech   # <-- seu usuário
           outputs: |
             dist/pacman.svg
+
+      - name: List generated files
+        run: ls -R dist
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # ou use PAT se precisar
           publish_branch: output
           publish_dir: dist
           force_orphan: true
