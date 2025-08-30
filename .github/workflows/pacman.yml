@@ -9,22 +9,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Checkout completo do repositório
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0   # Necessário para push em outras branches
 
+      # 2️⃣ Gerar o SVG do Pacman
       - name: Generate Pacman SVG
         uses: Platane/snk@v3
         with:
           github_user_name: joaodevtech
-          outputs: dist/pacman-contribution-graph.svg
-          pacman_style: classic   # força o estilo Pac-Man
-          size: 12               # aumenta o tamanho da grade para visual melhor
-          margin: 2              # margem ao redor do Pac-Man
+          outputs: |
+            dist/pacman.svg
 
+      # 3️⃣ Deploy para a branch output
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # ou GH_PAT se preferir
           publish_branch: output
           publish_dir: dist
           force_orphan: true
