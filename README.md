@@ -35,20 +35,31 @@ Meu objetivo é aplicar esses conhecimentos em projetos práticos, sempre buscan
   <img align="center" alt="n8n" height="30" width="40" src="https://avatars.githubusercontent.com/u/45487711?s=200&v=4"/>
   </div>
 
----
+
 
 ## 📫 Contatos
-
+<!-- Outlook -->
 <div>
   <a href="mailto:joaodev.tech@outlook.com">
     <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white">
   </a>
+  
+  <!-- Whatsapp -->
+  <a href="https://wa.me/5511952854749">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+  </a>
+  
+  <!-- Github -->
+ </a>
   <a href="https://github.com/Joaodevtech" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
+  
+  <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/SEU-LINKEDIN" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
+  
 </div>
 
 ---
@@ -70,3 +81,5 @@ Meu objetivo é aplicar esses conhecimentos em projetos práticos, sempre buscan
 </div>
 
 ##
+
+
