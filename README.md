@@ -57,15 +57,15 @@ Meu objetivo é aplicar esses conhecimentos em projetos práticos, sempre buscan
 
 
 <div>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaopaulosouzas&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=joaopaulosouzas&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img 
-  height="180em" 
+  height="150em" 
   src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndtem9mY2xiMjk2dG15enBoZDhrMWcyZ2s2d2FmajBzajhlMDQ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xj160ha5VexzEtEdH6/giphy.gif"
   style="border: 10px solid #FFFFFF; border-radius: 12px;"
 />
 
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulosouzas&layout=compact&langs_count=16&theme=dark"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulosouzas&layout=compact&langs_count=16&theme=dark"/>
   
 </div>
 
