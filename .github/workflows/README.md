@@ -4,7 +4,7 @@
 🎓 Estudo **Engenharia de Software**  
 📩 Contate-me: joaodev.tech@outlook.com
 
-## 🤵🏽 SOBRE MIM
+# 🤵🏽 Sobre mim
 
 *Vigilante apaixonado por transformar código em histórias digitais, combino criatividade e lógica para criar experiências significativas. Estou em busca de um estágio em TI ou programação, pronto para aplicar meus conhecimentos, aprender na prática e contribuir com soluções inovadoras.*
 
@@ -12,7 +12,7 @@
 
 
 
-## 💻 TECNOLOGIAS E CERTIFICADOS
+# 💻 Tecnologias e certificados
 
 <div style="display:flex; flex-wrap: wrap; gap:10px;">
 
