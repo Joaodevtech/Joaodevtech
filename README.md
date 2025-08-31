@@ -1,10 +1,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FFFFFF&width=900&lines=🌟+Olá%2C+eu+sou+João+Paulo!+Seja+muito+bem-vindo+ao+meu+perfil+do+GitHub!" alt="Typing SVG" />
 </p>
-
-🧑‍💼 Atualmente trabalho como <strong>Vigilante Patrimonial</strong><br>
-🎓 Estudo <strong>Engenharia de Software</strong><br>
-
 # 🤵🏽 Sobre mim  
 
 <i>Olá! Meu nome é João Paulo Souza Silva, tenho 28 anos e estudo Engenharia de Software na Universidade Anhanguera. Sou vigilante e apaixonado por transformar código em histórias digitais. Combino criatividade e lógica para criar experiências significativas. Estou em busca de um estágio em TI ou programação, pronto para aplicar meus conhecimentos, aprender na prática e contribuir com soluções inovadoras.</i>
@@ -13,10 +9,10 @@
 
 # 💻 Tecnologias e certificados
 
-<table width="100%" style="table-layout: fixed;">
+<table width="100%" style="table-layout: fixed; border: 2px solid black; border-radius: 10px; box-shadow: 2px 2px 12px rgba(0,0,0,0.4); border-collapse: collapse;">
   <tr>
     <!-- Ferramentas à esquerda -->
-    <td style="width: 50%; vertical-align: middle; text-align: center;">
+    <td style="width: 50%; vertical-align: middle; text-align: center; border-right: 2px solid black; padding: 20px;">
       <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="43" height="43"/>
       <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="43" height="43"/>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="40" height="30"/>
@@ -31,11 +27,12 @@
     </td>
 
   <!-- GIF à direita -->
-  <td style="width: 50%; vertical-align: middle; text-align: center;">
+  <td style="width: 50%; vertical-align: middle; text-align: center; padding: 20px;">
     <img height="300em" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndtem9mY2xiMjk2dG15enBoZDhrMWcyZ2s2d2FmajBzajhlMDQ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xj160ha5VexzEtEdH6/giphy.gif"/>
   </td>
   </tr>
 </table>
+
 
 
 
