@@ -5,30 +5,42 @@
 🧑‍💼 Atualmente trabalho como <strong>Vigilante Patrimonial</strong><br>
 🎓 Estudo <strong>Engenharia de Software</strong><br>
 
----
-
 # 🤵🏽 Sobre mim  
 
-<i>*Vigilante apaixonado por transformar código em histórias digitais, combino criatividade e lógica para criar experiências significativas. Estou em busca de um estágio em TI ou programação, pronto para aplicar meus conhecimentos, aprender na prática e contribuir com soluções inovadoras.*</i>
+<i>Olá! Meu nome é João Paulo Souza Silva, tenho 28 anos e estudo Engenharia de Software na Universidade Anhanguera. Sou vigilante e apaixonado por transformar código em histórias digitais. Combino criatividade e lógica para criar experiências significativas. Estou em busca de um estágio em TI ou programação, pronto para aplicar meus conhecimentos, aprender na prática e contribuir com soluções inovadoras.</i>
 
 ---
 
-# 💻 Tecnologias e certificados  
-<p align="center">
-  <!-- Desenvolvimento -->
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="43" height="43"/>
-  <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="43" height="43"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="40" height="30"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="40" height="30"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="30"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg" alt="WordPress" width="40" height="30"/>
-  <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="40" height="30"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="30"/>
-  <!-- Produtividade -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" alt="Notion" width="40" height="30"/>
-  <img src="https://img.icons8.com/color/48/000000/canva.png" alt="Canva" width="35" height="35"/>
-  <img src="https://avatars.githubusercontent.com/u/45487711?s=200&v=4" alt="n8n" width="40" height="30"/>
-</p>
+# 💻 Tecnologias e certificados
+
+<table width="100%" style="table-layout: fixed;">
+  <tr>
+    <!-- Ferramentas à esquerda -->
+    <td style="width: 50%; vertical-align: middle; text-align: center;">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="43" height="43"/>
+      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="43" height="43"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="40" height="30"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="40" height="30"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="30"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg" alt="WordPress" width="40" height="30"/>
+      <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="40" height="30"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="30"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" alt="Notion" width="40" height="30"/>
+      <img src="https://img.icons8.com/color/48/000000/canva.png" alt="Canva" width="35" height="35"/>
+      <img src="https://avatars.githubusercontent.com/u/45487711?s=200&v=4" alt="n8n" width="40" height="30"/>
+    </td>
+
+  <!-- GIF à direita -->
+  <td style="width: 50%; vertical-align: middle; text-align: center;">
+    <img height="300em" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndtem9mY2xiMjk2dG15enBoZDhrMWcyZ2s2d2FmajBzajhlMDQ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xj160ha5VexzEtEdH6/giphy.gif"/>
+  </td>
+  </tr>
+</table>
+
+
+
+
+
 
 ---
 
@@ -53,7 +65,7 @@
 
 ---
 
-## 📊 Estatísticas do GitHub  
+## 📊 Estatísticas 
 
 <div align="center"> 
   <table width="100%"> 
@@ -77,8 +89,7 @@
 ## 📉 Minhas contribuições  
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joaodevtech/joaodevtech/output/pacman-contribution-graph.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joaodevtech/joaodevtech/output/pacman-contribution-graph-dark.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/joaodevtech/joaodevtech/output/pacman-contribution-graph.svg">
+  <source srcset="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/pacman-contribution-graph.svg" media="(prefers-color-scheme: dark)">
+  <img src="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/pacman-contribution-graph-dark.svg" alt="Pac-Man GitHub Contributions">
 </picture>
 
