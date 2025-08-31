@@ -31,11 +31,21 @@ jobs:
 
       # 5️⃣ Gerar SVG claro
       - name: Generate light theme SVG
-        run: pacman-contribution-graph --output output/pacman-contribution-graph.svg --theme light
+        run: |
+          pacman-contribution-graph \
+            --platform github \
+            --gameTheme github \
+            --username Joaodevtech \
+            --output output/pacman-contribution-graph.svg
 
       # 6️⃣ Gerar SVG escuro
       - name: Generate dark theme SVG
-        run: pacman-contribution-graph --output output/pacman-contribution-graph-dark.svg --theme dark
+        run: |
+          pacman-contribution-graph \
+            --platform github \
+            --gameTheme github-dark \
+            --username Joaodevtech \
+            --output output/pacman-contribution-graph-dark.svg
 
       # 7️⃣ Commitar e enviar para o branch output
       - name: Push output branch
