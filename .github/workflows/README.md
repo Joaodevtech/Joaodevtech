@@ -2,17 +2,17 @@
 
 🧑‍💼 Atualmente trabalho como **Vigilante Patrimonial**  
 🎓 Estudo **Engenharia de Software**  
-📩 Contate-me: [joaodev.tech@outlook.com](mailto:joaodev.tech@outlook.com)  
+📩 Contate-me: joaodev.tech@outlook.com
 
-Tenho conhecimentos básicos em **Notion** e **Canva**, além de experiência com ferramentas de automação como **n8n** e **Make**, que utilizo para otimizar processos e integrar diferentes plataformas.  
+## 🤵🏽 SOBRE MIM
 
-Possuo certificações em **Informática, Design, Git, GitHub, Python, HTML, CSS, PHP, WordPress, MySQL e Power BI**, permitindo desenvolver soluções que combinam análise de dados, desenvolvimento web e automação.  
+*Vigilante apaixonado por transformar código em histórias digitais, combino criatividade e lógica para criar experiências significativas. Estou em busca de um estágio em TI ou programação, pronto para aplicar meus conhecimentos, aprender na prática e contribuir com soluções inovadoras.*
 
-Meu objetivo é aplicar esses conhecimentos em projetos práticos, sempre buscando evoluir como desenvolvedor e ampliar minhas habilidades técnicas.
+--- 
 
----
 
-## 🚀 Tecnologias e Ferramentas
+
+## 💻 TECNOLOGIAS E CERTIFICADOS
 
 <div style="display:flex; flex-wrap: wrap; gap:10px;">
 
@@ -34,6 +34,11 @@ Meu objetivo é aplicar esses conhecimentos em projetos práticos, sempre buscan
 </div>
 
 ---
+## 🚀 OBJETIVO
+
+*Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampliar minhas habilidades técnicas com foco em desenvolvimento web, automação e análise de dados.*
+
+---
 
 ## 📫 Contatos
 
@@ -47,17 +52,13 @@ Meu objetivo é aplicar esses conhecimentos em projetos práticos, sempre buscan
   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
-<a href="https://github.com/Joaodevtech" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
 <a href="https://www.linkedin.com/in/SEU-LINKEDIN" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
 </div>
 
----
+
 
 ## 📊 Estatísticas do GitHub
 
@@ -76,7 +77,13 @@ Meu objetivo é aplicar esses conhecimentos em projetos práticos, sempre buscan
 ## 📉 Minhas contribuições
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joaodevtech/joaodevtech/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joaodevtech/joaodevtech/output/pacman-contribution-graph.svg">
-  <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/joaodevtech/joaodevtech/output/pacman-contribution-graph.svg">
+  <!-- Tema claro -->
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VIDAKHOSHPEY22/VIDAKHOSHPEY22/output/pacman-contribution-graph.svg">
+  
+  <!-- Tema escuro -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VIDAKHOSHPEY22/VIDAKHOSHPEY22/output/pacman-contribution-graph-dark.svg">
+  
+  <!-- Fallback -->
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/VIDAKHOSHPEY22/VIDAKHOSHPEY22/output/pacman-contribution-graph.svg">
 </picture>
+
