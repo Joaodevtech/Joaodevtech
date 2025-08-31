@@ -15,25 +15,29 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # 2️⃣ Configurar Node.js (caso o pacman-contribution-graph precise)
+      # 2️⃣ Configurar Node.js >= 20
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "20.x"
 
       # 3️⃣ Instalar pacman-contribution-graph
       - name: Install Pacman Graph
         run: npm install -g pacman-contribution-graph
 
-      # 4️⃣ Gerar SVG claro
+      # 4️⃣ Criar pasta output se não existir
+      - name: Create output folder
+        run: mkdir -p output
+
+      # 5️⃣ Gerar SVG claro
       - name: Generate light theme SVG
         run: pacman-contribution-graph --output output/pacman-contribution-graph.svg --theme light
 
-      # 5️⃣ Gerar SVG escuro
+      # 6️⃣ Gerar SVG escuro
       - name: Generate dark theme SVG
         run: pacman-contribution-graph --output output/pacman-contribution-graph-dark.svg --theme dark
 
-      # 6️⃣ Criar branch output e commit
+      # 7️⃣ Commitar e enviar para o branch output
       - name: Push output branch
         run: |
           git config --global user.name "github-actions[bot]"
