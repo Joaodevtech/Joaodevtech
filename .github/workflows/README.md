@@ -1,4 +1,11 @@
-# Olá, eu sou João Paulo 🍃
+
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=FFFFFF&width=900&lines=%F0%9F%8D%83+Ol%C3%A1%2C+seja+bem+vindo%2Fa%2C+meu+nome+%C3%A9+Jo%C3%A3o+Paulo+%F0%9F%8D%83" alt="Typing SVG" />
+  </a>
+</div>
+
+
 
 🧑‍💼 Atualmente trabalho como **Vigilante Patrimonial**  
 🎓 Estudo **Engenharia de Software**  
@@ -14,7 +21,7 @@
 
 # 💻 Tecnologias e certificados
 
-<div style="display:flex; flex-wrap: wrap; gap:10px;">
+<div style="display:flex; flex-start: wrap; gap:10px;">
 
 <!-- Desenvolvimento Web -->
 <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="43" height="43" />
@@ -25,7 +32,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg" alt="WordPress" width="40" height="30"/>
 <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="40" height="30"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="30"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="40" height="30"/>
+<img src="https://drive.google.com/file/d/1qdjz2ss737wIFX8ISsDYytuf3i8nJesF/view?usp=sharing.gif" alt="GitHub" width="40" height="30"/>
 
 <!-- Ferramentas de Produtividade -->
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" alt="Notion" width="40" height="30"/>
