@@ -66,20 +66,29 @@
 
 ## 📊 Estatísticas do GitHub
 
-<p align="center">
-  <img 
-    align="center"
-    alt="Estatísticas do GitHub"
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api?username=joaodevtech&show_icons=true&theme=dark&include_all_commits=true&count_private=true" 
-  />
-  <img 
-    align="center"
-    alt="Tecnologias mais usadas" 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaodevtech&theme=dark&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
-</p>
+<div align="center">
+
+<table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img 
+        alt="Estatísticas do GitHub"
+        height="180em" 
+        src="https://github-readme-stats.vercel.app/api?username=joaodevtech&show_icons=true&theme=dark&include_all_commits=true&count_private=true" 
+      />
+    </td>
+    <td align="center" width="50%">
+      <img 
+        alt="Tecnologias mais usadas" 
+        height="180em" 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaodevtech&theme=dark&layout=compact&custom_title=Tecnologias&langs_count=9" 
+      />
+    </td>
+  </tr>
+</table>
+
+</div>
+
 
 
 
