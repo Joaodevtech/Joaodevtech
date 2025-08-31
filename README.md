@@ -2,29 +2,30 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FFFFFF&width=900&lines=🌟+Olá%2C+eu+sou+João+Paulo!+Seja+muito+bem-vindo+ao+meu+perfil+do+GitHub!" alt="Typing SVG" />
 </p>
 <br>
-<p align="center">
-  <!-- GIF -->
-  <img height="200em" src=""/>
-</p>
-<br>
-<h1>🤵🏽 Sobre mim </h1> 
-<table>
+
+<table style="width:100%; border:0;">
   <tr>
-    <!-- Coluna do texto -->
-    <td style="vertical-align: top; padding-right: 15px;">
-      <i>
+    <!-- GIF -->
+    <td style="width: 25%; vertical-align: middle; text-align: center; border:0;">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndtem9mY2xiMjk2dG15enBoZDhrMWcyZ2s2d2FmajBzajhlMDQ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xj160ha5VexzEtEdH6/giphy.gif" 
+           alt="Robô" 
+           width="100"/>
+    </td>
+
+  <!-- Texto -->
+  <td style="width: 75%; vertical-align: middle; border:0;">
+    <i>
       Olá! Meu nome é João Paulo Souza Silva, tenho 28 anos e estudo Engenharia de Software na Universidade Anhanguera. 
       Sou vigilante e apaixonado por transformar código em histórias digitais. Combino criatividade e lógica para criar experiências significativas. 
       Estou em busca de um estágio em TI ou programação, pronto para aplicar meus conhecimentos, aprender na prática e contribuir com soluções inovadoras.
-      </i>
-    </td>
-
-  <!-- Coluna do GIF -->
-  <td style="width: 150px; vertical-align: top; text-align: center;">
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndtem9mY2xiMjk2dG15enBoZDhrMWcyZ2s2d2FmajBzajhlMDQ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xj160ha5VexzEtEdH6/giphy.gif" height="200px" alt="Robô"/>
+    </i>
   </td>
   </tr>
 </table>
+
+
+
+
 
 
 
@@ -48,7 +49,7 @@
 
 ## 🚀 Objetivo  
 <br>
-*Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampliar minhas habilidades técnicas com foco em desenvolvimento web, automação e análise de dados.*
+<i>Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampliar minhas habilidades técnicas com foco em desenvolvimento web, automação e análise de dados.</i>
 <br><br>
 
 
@@ -59,20 +60,29 @@
 <br>
 <p align="center">
   <picture>
-    <source srcset="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/pacman-contribution-graph.svg" media="(prefers-color-scheme: dark)">
-    <img src="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/pacman-contribution-graph-dark.svg" alt="Pac-Man GitHub Contributions">
+    <source srcset="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/pacman-contribution-graph-dark.svg" media="(prefers-color-scheme: dark)">
+    <img src="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/pacman-contribution-graph.svg" alt="Pac-Man GitHub Contributions">
   </picture>
 </p>
 
 <br>
 ## 📊 Estatísticas 
 <br>
-<div align="center"> 
-  <img 
-    alt="Estatísticas do GitHub" height="180em" src="https://github-readme-stats.vercel.app/api?username=joaodevtech&show_icons=true&theme=dark&include_all_commits=true&count_private=true" /> 
-  <img
-    alt="Tecnologias mais usadas" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaodevtech&theme=dark&layout=compact&custom_title=Tecnologias&langs_count=9" />
-</div>
+<table border="1" width="100%">
+  <tr>
+    <td align="center">
+      <img 
+        alt="Estatísticas do GitHub" height="180em" 
+        src="https://github-readme-stats.vercel.app/api?username=joaodevtech&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
+    </td>
+    <td align="center">
+      <img 
+        alt="Tecnologias mais usadas" height="180em" 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaodevtech&theme=dark&layout=compact&custom_title=Tecnologias&langs_count=9" />
+    </td>
+  </tr>
+</table>
+
 <br>
 
 <br>
