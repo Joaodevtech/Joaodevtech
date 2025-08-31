@@ -1,33 +1,44 @@
-name: Generate Pacman Animation
+name: Generate Pac-Man SVGs
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"  # Executa a cada 6 horas
-  workflow_dispatch:       # Permite rodar manualmente
+    - cron: "0 */12 * * *" # Executa a cada 12 horas
 
 jobs:
-  build:
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Checkout completo do repositório
-      - name: Checkout repository
+      # 1️⃣ Puxar o repositório
+      - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0   # Necessário para push em outras branches
 
-      # 2️⃣ Gerar o SVG do Pacman
-      - name: Generate Pacman SVG
-        uses: Platane/snk@v3
+      # 2️⃣ Configurar Node.js (caso o pacman-contribution-graph precise)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          github_user_name: joaodevtech
-          outputs: |
-            dist/pacman.svg
+          node-version: "18"
 
-      # 3️⃣ Deploy para a branch output
-      - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # ou GH_PAT se preferir
-          publish_branch: output
-          publish_dir: dist
-          force_orphan: true
+      # 3️⃣ Instalar pacman-contribution-graph
+      - name: Install Pacman Graph
+        run: npm install -g pacman-contribution-graph
+
+      # 4️⃣ Gerar SVG claro
+      - name: Generate light theme SVG
+        run: pacman-contribution-graph --output output/pacman-contribution-graph.svg --theme light
+
+      # 5️⃣ Gerar SVG escuro
+      - name: Generate dark theme SVG
+        run: pacman-contribution-graph --output output/pacman-contribution-graph-dark.svg --theme dark
+
+      # 6️⃣ Criar branch output e commit
+      - name: Push output branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B output
+          git add output/pacman-contribution-graph.svg output/pacman-contribution-graph-dark.svg
+          git commit -m "Update Pac-Man SVGs"
+          git push -u origin output --force
