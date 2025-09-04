@@ -66,7 +66,9 @@
 </p>
 
 <br>
+  
 ## 📊 Estatísticas 
+
 <br>
 <table border="1" width="100%">
   <tr>
@@ -85,18 +87,20 @@
 
 <br>
 
-<br>
-## 📫 Contatos  
+<br> 
+
+# 📫 Contatos  
+
 <br>
 <p align="center">
   <a href="mailto:joaodev.tech@outlook.com">
-    <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white">
+    <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Outlook.svg"alt="outlook" width="60" height="50">
   </a>
   <a href="https://wa.me/5511952854749">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+    <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Whatsapp.svg"alt="outlook" width="60" height="50">
   </a>
   <a href="https://www.linkedin.com/in/joaopaulodevtech" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Linkedin.svg"alt="linkedin" width="60" height="50">
   </a>
 </p>
 <br>
