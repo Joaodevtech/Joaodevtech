@@ -116,8 +116,7 @@
 
 <p align="center">
   <picture>
-    <source srcset="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/dino-graph-dark.svg" media="(prefers-color-scheme: dark)">
-    <img src="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/dino-graph.svg" alt="Dino Game GitHub Contributions">
+    <img src="https://github.com/Joaodevtech/Joaodevtech/blob/main/.github/workflows/dino.gif" alt="Dino"width="100%" height="150">
   </picture>
 </p>
 
