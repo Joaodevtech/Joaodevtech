@@ -104,3 +104,20 @@
   </a>
 </p>
 <br>
+
+
+
+
+
+## Teste >
+
+
+
+
+<p align="center">
+  <picture>
+    <source srcset="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/dino-graph-dark.svg" media="(prefers-color-scheme: dark)">
+    <img src="https://github.com/Joaodevtech/Joaodevtech/blob/output/output/dino-graph.svg" alt="Dino Game GitHub Contributions">
+  </picture>
+</p>
+
