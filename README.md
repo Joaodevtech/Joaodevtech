@@ -107,22 +107,3 @@
 
 
 
-# Dino Animation 🦖
-
-Replica do joguinho do Chrome em SVG animado.
-
-![Dino Animation](output/dino.svg)
-
-
-
-## Teste >
-
-
-
-
-<p align="center">
-  <picture>
-    <img src="https://github.com/Joaodevtech/Joaodevtech/blob/main/.github/workflows/dino.gif" alt="Dino"width="100%" height="150">
-  </picture>
-</p>
-
