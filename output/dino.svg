@@ -9,3 +9,33 @@
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="60s" repeatCount="indefinite"/>
     </path>
   </g>
+  <g id="dino1">
+    <rect x="50" y="100" width="40" height="40" fill="black"/>
+    <rect x="85" y="110" width="20" height="20" fill="black"/>
+    <rect x="100" y="115" width="4" height="4" fill="white"/>
+    <rect x="40" y="110" width="10" height="10" fill="black"/>
+    <rect x="55" y="140" width="10" height="10" fill="black"/>
+    <rect x="75" y="145" width="10" height="5" fill="black"/>
+  </g>
+  <g id="dino2" visibility="hidden">
+    <rect x="50" y="100" width="40" height="40" fill="black"/>
+    <rect x="85" y="110" width="20" height="20" fill="black"/>
+    <rect x="100" y="115" width="4" height="4" fill="white"/>
+    <rect x="40" y="110" width="10" height="10" fill="black"/>
+    <rect x="55" y="145" width="10" height="5" fill="black"/>
+    <rect x="75" y="140" width="10" height="10" fill="black"/>
+  </g>
+  <animate xlink:href="#dino1" attributeName="visibility" values="visible;hidden" dur="0.4s" repeatCount="indefinite"/>
+  <animate xlink:href="#dino2" attributeName="visibility" values="hidden;visible" dur="0.4s" repeatCount="indefinite"/>
+  <rect x="800" y="120" width="20" height="30" fill="black">
+    <animate attributeName="x" from="800" to="-50" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1000" y="110" width="20" height="40" fill="black">
+    <animate attributeName="x" from="1000" to="-50" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="black">
+    <rect x="1200" y="100" width="20" height="50"/>
+    <rect x="1225" y="120" width="20" height="30"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1400 0" dur="8s" repeatCount="indefinite"/>
+  </g>
+</svg>
