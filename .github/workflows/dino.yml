@@ -17,14 +17,13 @@ jobs:
 
       - name: Gerar animação do Dino
         run: |
-          cat > output/dino.svg <<'EOF'
+          cat <<'EOF' > output/dino.svg
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
-  <!-- fundo -->
   <rect width="100%" height="100%" fill="white"/>
-  
+
   <!-- chão tracejado -->
   <line x1="0" y1="150" x2="800" y2="150" stroke="#555" stroke-width="2" stroke-dasharray="6,6"/>
-  
+
   <!-- nuvens -->
   <g fill="none" stroke="#bbb" stroke-width="2">
     <path d="M60 50 q10 -10 20 0 q10 -10 20 0 q10 10 20 0">
@@ -71,7 +70,6 @@ jobs:
     <rect x="1225" y="120" width="20" height="30"/>
     <animateTransform attributeName="transform" type="translate" from="0 0" to="-1400 0" dur="8s" repeatCount="indefinite"/>
   </g>
-
 </svg>
 EOF
 
