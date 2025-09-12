@@ -12,21 +12,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Criar pasta de saída
+        run: mkdir -p output
+
       - name: Gerar animação do Dino
         run: |
-          mkdir -p output
-      - name: Gerar animação do Dino
-        run: |
-          mkdir -p output
           cat > output/dino.svg <<'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
   <rect width="100%" height="100%" fill="white"/>
-EOF
 
-  
   <!-- chão tracejado -->
   <line x1="0" y1="150" x2="800" y2="150" stroke="#555" stroke-width="2" stroke-dasharray="6,6"/>
-  
+
   <!-- nuvens animadas -->
   <g fill="none" stroke="#bbb" stroke-width="2">
     <path d="M60 50 q10 -10 20 0 q10 -10 20 0 q10 10 20 0">
@@ -36,7 +33,7 @@ EOF
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="60s" repeatCount="indefinite"/>
     </path>
   </g>
-  
+
   <!-- Dino frame 1 -->
   <g id="dino1">
     <rect x="50" y="100" width="40" height="40" fill="black"/>
@@ -46,7 +43,7 @@ EOF
     <rect x="55" y="140" width="10" height="10" fill="black"/>
     <rect x="75" y="145" width="10" height="5" fill="black"/>
   </g>
-  
+
   <!-- Dino frame 2 -->
   <g id="dino2" visibility="hidden">
     <rect x="50" y="100" width="40" height="40" fill="black"/>
@@ -56,21 +53,21 @@ EOF
     <rect x="55" y="145" width="10" height="5" fill="black"/>
     <rect x="75" y="140" width="10" height="10" fill="black"/>
   </g>
-  
+
   <!-- alternar frames -->
   <animate xlink:href="#dino1" attributeName="visibility" values="visible;hidden" dur="0.4s" repeatCount="indefinite"/>
   <animate xlink:href="#dino2" attributeName="visibility" values="hidden;visible" dur="0.4s" repeatCount="indefinite"/>
-  
+
   <!-- cactus 1 -->
   <rect x="800" y="120" width="20" height="30" fill="black">
     <animate attributeName="x" from="800" to="-50" dur="4s" repeatCount="indefinite"/>
   </rect>
-  
+
   <!-- cactus 2 -->
   <rect x="1000" y="110" width="20" height="40" fill="black">
     <animate attributeName="x" from="1000" to="-50" dur="6s" repeatCount="indefinite"/>
   </rect>
-  
+
   <!-- cactus duplo -->
   <g fill="black">
     <rect x="1200" y="100" width="20" height="50"/>
