@@ -28,7 +28,40 @@ jobs:
           echo '      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="60s" repeatCount="indefinite"/>' >> output/dino.svg
           echo '    </path>' >> output/dino.svg
           echo '  </g>' >> output/dino.svg
-          # (continua com os demais elementos do SVG, usando echo >> output/dino.svg)
+          # Dino frame 1
+          echo '  <g id="dino1">' >> output/dino.svg
+          echo '    <rect x="50" y="100" width="40" height="40" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="85" y="110" width="20" height="20" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="100" y="115" width="4" height="4" fill="white"/>' >> output/dino.svg
+          echo '    <rect x="40" y="110" width="10" height="10" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="55" y="140" width="10" height="10" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="75" y="145" width="10" height="5" fill="black"/>' >> output/dino.svg
+          echo '  </g>' >> output/dino.svg
+          # Dino frame 2
+          echo '  <g id="dino2" visibility="hidden">' >> output/dino.svg
+          echo '    <rect x="50" y="100" width="40" height="40" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="85" y="110" width="20" height="20" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="100" y="115" width="4" height="4" fill="white"/>' >> output/dino.svg
+          echo '    <rect x="40" y="110" width="10" height="10" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="55" y="145" width="10" height="5" fill="black"/>' >> output/dino.svg
+          echo '    <rect x="75" y="140" width="10" height="10" fill="black"/>' >> output/dino.svg
+          echo '  </g>' >> output/dino.svg
+          # Alternar frames
+          echo '  <animate xlink:href="#dino1" attributeName="visibility" values="visible;hidden" dur="0.4s" repeatCount="indefinite"/>' >> output/dino.svg
+          echo '  <animate xlink:href="#dino2" attributeName="visibility" values="hidden;visible" dur="0.4s" repeatCount="indefinite"/>' >> output/dino.svg
+          # Cactos
+          echo '  <rect x="800" y="120" width="20" height="30" fill="black">' >> output/dino.svg
+          echo '    <animate attributeName="x" from="800" to="-50" dur="4s" repeatCount="indefinite"/>' >> output/dino.svg
+          echo '  </rect>' >> output/dino.svg
+          echo '  <rect x="1000" y="110" width="20" height="40" fill="black">' >> output/dino.svg
+          echo '    <animate attributeName="x" from="1000" to="-50" dur="6s" repeatCount="indefinite"/>' >> output/dino.svg
+          echo '  </rect>' >> output/dino.svg
+          echo '  <g fill="black">' >> output/dino.svg
+          echo '    <rect x="1200" y="100" width="20" height="50"/>' >> output/dino.svg
+          echo '    <rect x="1225" y="120" width="20" height="30"/>' >> output/dino.svg
+          echo '    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1400 0" dur="8s" repeatCount="indefinite"/>' >> output/dino.svg
+          echo '  </g>' >> output/dino.svg
+          echo '</svg>' >> output/dino.svg
 
       - name: Commit & Push
         uses: EndBug/add-and-commit@v9
