@@ -15,10 +15,14 @@ jobs:
       - name: Gerar animação do Dino
         run: |
           mkdir -p output
+      - name: Gerar animação do Dino
+        run: |
+          mkdir -p output
           cat > output/dino.svg <<'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
-  <!-- fundo branco -->
   <rect width="100%" height="100%" fill="white"/>
+EOF
+
   
   <!-- chão tracejado -->
   <line x1="0" y1="150" x2="800" y2="150" stroke="#555" stroke-width="2" stroke-dasharray="6,6"/>
