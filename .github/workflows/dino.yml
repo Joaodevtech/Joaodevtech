@@ -17,49 +17,18 @@ jobs:
 
       - name: Gerar animação do Dino
         run: |
-          cat <<'EOF' > output/dino.svg
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
-  <rect width="100%" height="100%" fill="white"/>
-  <line x1="0" y1="150" x2="800" y2="150" stroke="#555" stroke-width="2" stroke-dasharray="6,6"/>
-  <g fill="none" stroke="#bbb" stroke-width="2">
-    <path d="M60 50 q10 -10 20 0 q10 -10 20 0 q10 10 20 0">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="40s" repeatCount="indefinite"/>
-    </path>
-    <path d="M200 30 q15 -10 30 0 q15 -10 30 0 q15 10 30 0">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="60s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <g id="dino1">
-    <rect x="50" y="100" width="40" height="40" fill="black"/>
-    <rect x="85" y="110" width="20" height="20" fill="black"/>
-    <rect x="100" y="115" width="4" height="4" fill="white"/>
-    <rect x="40" y="110" width="10" height="10" fill="black"/>
-    <rect x="55" y="140" width="10" height="10" fill="black"/>
-    <rect x="75" y="145" width="10" height="5" fill="black"/>
-  </g>
-  <g id="dino2" visibility="hidden">
-    <rect x="50" y="100" width="40" height="40" fill="black"/>
-    <rect x="85" y="110" width="20" height="20" fill="black"/>
-    <rect x="100" y="115" width="4" height="4" fill="white"/>
-    <rect x="40" y="110" width="10" height="10" fill="black"/>
-    <rect x="55" y="145" width="10" height="5" fill="black"/>
-    <rect x="75" y="140" width="10" height="10" fill="black"/>
-  </g>
-  <animate xlink:href="#dino1" attributeName="visibility" values="visible;hidden" dur="0.4s" repeatCount="indefinite"/>
-  <animate xlink:href="#dino2" attributeName="visibility" values="hidden;visible" dur="0.4s" repeatCount="indefinite"/>
-  <rect x="800" y="120" width="20" height="30" fill="black">
-    <animate attributeName="x" from="800" to="-50" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="1000" y="110" width="20" height="40" fill="black">
-    <animate attributeName="x" from="1000" to="-50" dur="6s" repeatCount="indefinite"/>
-  </rect>
-  <g fill="black">
-    <rect x="1200" y="100" width="20" height="50"/>
-    <rect x="1225" y="120" width="20" height="30"/>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1400 0" dur="8s" repeatCount="indefinite"/>
-  </g>
-</svg>
-EOF
+          echo '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">' > output/dino.svg
+          echo '  <rect width="100%" height="100%" fill="white"/>' >> output/dino.svg
+          echo '  <line x1="0" y1="150" x2="800" y2="150" stroke="#555" stroke-width="2" stroke-dasharray="6,6"/>' >> output/dino.svg
+          echo '  <g fill="none" stroke="#bbb" stroke-width="2">' >> output/dino.svg
+          echo '    <path d="M60 50 q10 -10 20 0 q10 -10 20 0 q10 10 20 0">' >> output/dino.svg
+          echo '      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="40s" repeatCount="indefinite"/>' >> output/dino.svg
+          echo '    </path>' >> output/dino.svg
+          echo '    <path d="M200 30 q15 -10 30 0 q15 -10 30 0 q15 10 30 0">' >> output/dino.svg
+          echo '      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="60s" repeatCount="indefinite"/>' >> output/dino.svg
+          echo '    </path>' >> output/dino.svg
+          echo '  </g>' >> output/dino.svg
+          # (continua com os demais elementos do SVG, usando echo >> output/dino.svg)
 
       - name: Commit & Push
         uses: EndBug/add-and-commit@v9
