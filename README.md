@@ -14,11 +14,26 @@
 
   <!-- Texto -->
   <td style="width: 75%; vertical-align: middle; border:0;">
-    <i>
-      Olá! Meu nome é João Paulo Souza Silva, tenho 28 anos e estudo Engenharia de Software na Universidade Anhanguera. 
-      Sou vigilante e apaixonado por transformar código em histórias digitais. Combino criatividade e lógica para criar experiências significativas. 
-      Estou em busca de um estágio em TI ou programação, pronto para aplicar meus conhecimentos, aprender na prática e contribuir com soluções inovadoras.
-    </i>
+
+## 👨‍💻 Sobre mim
+
+Me chamo **João Paulo Souza Silva**, tenho **28 anos** e sou natural de **São Paulo - SP**.  
+Atualmente, curso **Bacharelado em Engenharia de Software** na **Universidade Anhanguera**.  
+
+Trabalho como **Vigilante na empresa Souza Lima**, atuando no cliente **Coca-Cola Femsa**.  
+Sigo meu desenvolvimento na área de **tecnologia**, com interesse especial em **TI** e **Análise de Dados**.  
+
+Estou em busca de uma **oportunidade de estágio em TI**, onde eu possa aplicar e desenvolver minhas habilidades, aliando dedicação e disciplina adquiridas na minha trajetória profissional.  
+
+---
+
+### 🚀 Áreas de interesse
+- 🌐 Desenvolvimento Web | Backend | Frontend | Fullstack  
+- 📊 Análise de Dados  
+- ⚙️ Automações  
+
+---
+
   </td>
   </tr>
 </table>
