@@ -31,7 +31,7 @@
 # 💻 Tecnologias e Certificados
 <p align="center">
    <img align="left" 
-     src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndtem9mY2xiMjk2dG15enBoZDhrMWcyZ2s2d2FmajBzajhlMDQ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xj160ha5VexzEtEdH6/giphy.gif" 
+     src="https://github.com/Joaodevtech/Joaodevtech/blob/main/.github/workflows/Robo.gif" 
      alt="GIF de Anime" 
      width="150"/>
   <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="43" height="43"/>
@@ -45,7 +45,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" alt="Notion" width="40" height="30"/>
   <img src="https://img.icons8.com/color/48/000000/canva.png" alt="Canva" width="35" height="35"/>
   <img align="right" 
-     src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndtem9mY2xiMjk2dG15enBoZDhrMWcyZ2s2d2FmajBzajhlMDQ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xj160ha5VexzEtEdH6/giphy.gif" 
+     src="https://github.com/Joaodevtech/Joaodevtech/blob/main/.github/workflows/Robo.gif" 
      alt="GIF de Anime" 
      width="150"/>
 </p>
