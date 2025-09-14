@@ -15,7 +15,7 @@
       Paralelamente, sigo meu desenvolvimento na área de <strong>tecnologia</strong>, com interesse especial em <strong>TI</strong> e <strong>Análise de Dados</strong>.<br>
       Estou em busca de uma <strong>oportunidade de estágio em TI</strong>, onde eu possa aplicar e desenvolver minhas habilidades.<br><br>
       🚀 <strong>Áreas de interesse:</strong><br>
-      🌐 Desenvolvimento Web | Backend | Frontend | Fullstack<br>
+      🌐 Tecnologia da Informação | Desenvolvimento Fullstack<br>
       📊 Análise de Dados<br>
       ⚙️ Automações
     </p>
@@ -50,7 +50,8 @@
      width="150"/>
 </p>
 
-<p align="center" style="font-size: 60px; font-weight: bold; margin: 0;">📫 Contatos</p>
+<h3 align="center" style="font-size: 60px; font-weight: bold; margin: 0;">
+  📫 Contatos</h3>
 
 <br>
 <p align="center">
@@ -65,15 +66,8 @@
   </a>
 </p>
 
-<br>
-<br>
-<br>
-<br>
+<br width="150">
 
-<br>
-<br>
-<br>
-<br>
 ## 📉 Minhas contribuições
 <p align="center">
   <picture>
