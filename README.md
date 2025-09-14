@@ -7,23 +7,32 @@
 
   <!-- Texto com linha vertical à direita -->
   <div style="display: flex; flex-direction: column; align-items: flex-start; padding-right: 20px; border-right: 2px solid #ccc;">
-    <h2>👨‍💻 Sobre mim</h2>
-    <p>
-      Me chamo <strong>João Paulo Souza Silva</strong>, tenho <strong>28 anos</strong> e sou natural de São Paulo - SP.<br>
-      Atualmente, curso <strong>Bacharelado em Engenharia de Software</strong> na <strong>Universidade Anhanguera</strong>.<br><br>
-      Trabalho como <strong>Vigilante na empresa Souza Lima</strong>, atuando no cliente <strong>Coca-Cola Femsa</strong>.<br>
-      Paralelamente, sigo meu desenvolvimento na área de <strong>tecnologia</strong>, com interesse especial em <strong>TI</strong> e <strong>Análise de Dados</strong>.<br>
-      Estou em busca de uma <strong>oportunidade de estágio em TI</strong>, onde eu possa aplicar e desenvolver minhas habilidades.<br><br>
-      🚀 <strong>Áreas de interesse:</strong><br>
-      🌐 Tecnologia da Informação | Desenvolvimento Fullstack<br>
-      📊 Análise de Dados<br>
-      ⚙️ Automações
-    </p>
-   <h3>🚀 Objetivo  </h3>
-    <br>
-    <i>Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampliar minhas habilidades técnicas com foco em desenvolvimento web, automação e análise de dados.</i>
-    <br><br>
-  </div>
+<details>
+  <summary>👤 Saiba mais sobre mim</summary>
+
+<br>
+
+Me chamo João Paulo Souza Silva, tenho 28 anos e sou natural de São Paulo - SP.  
+Atualmente, curso **Bacharelado em Engenharia de Software** na Universidade Anhanguera.  
+Trabalho como **Vigilante** na empresa Souza Lima, atuando no cliente **Coca-Cola Femsa**.  
+Paralelamente, sigo meu desenvolvimento na área de tecnologia, com interesse especial em **TI e Análise de Dados**.  
+Estou em busca de uma **oportunidade de estágio em TI**, onde eu possa aplicar e desenvolver minhas habilidades.
+
+---
+
+### 🚀 Áreas de interesse:
+- 🌐 Tecnologia da Informação | Desenvolvimento Fullstack  
+- 📊 Análise de Dados  
+- ⚙️ Automações  
+
+---
+
+### 🎯 Objetivo
+
+Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampliar minhas habilidades técnicas com foco em **desenvolvimento web**, **automação** e **análise de dados**.
+
+</details>
+
 </div>
 
 <br>
