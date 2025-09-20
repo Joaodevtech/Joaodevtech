@@ -11,7 +11,7 @@
 <p>🌱 Atualmente, estudo <strong>Engenharia de Software</strong> na Universidade Anhanguera.
 <br>
 <br>
-🔭 Estou em busca da minha <strong>primeira oportunidade de emprego na area de tecnologia</strong>. Meu sonho é um dia trabalhar com <strong>🤖 IA</strong> e <strong>🧠 Machine Learning</strong>.</p>
+🔭 Estou em busca da minha <strong>primeira oportunidade de emprego na area de TI</strong>. Meu sonho é um dia trabalhar com <strong>🤖 IA</strong> e <strong>🧠 Machine Learning</strong>.</p>
 
 <details>
   <summary>👨‍💻 Mais sobre mim</summary>
