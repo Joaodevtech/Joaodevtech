@@ -131,7 +131,7 @@ Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampli
     align="left" 
     alt="Top Languages"
     height="200px"
-    width="350px"
+    width="380px"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joaodevtech&theme=dark&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
   </p>
