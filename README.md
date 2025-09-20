@@ -123,7 +123,7 @@ Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampli
       align="left" 
       alt="GitHub Stats" 
       height="200px"
-      width="425px"
+      width="420px"
       style="padding-right: 10px;" 
       src="https://github-readme-stats.vercel.app/api?username=Joaodevtech&show_icons=true&theme=dark&include_all_commits=true&locale=pt-br" 
     />
@@ -131,7 +131,7 @@ Aplicar meus conhecimentos em projetos reais, evoluir como desenvolvedor e ampli
     align="left" 
     alt="Top Languages"
     height="200px"
-    width="385px"
+    width="380px"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joaodevtech&theme=dark&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
   </p>
